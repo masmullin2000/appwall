@@ -1,0 +1,5 @@
+/usr/lib/firefox/firefox    
+/usr/bin/wget
+/usr/lib/brave-bin/brave
+blahblahblah
+/usr/bin/git

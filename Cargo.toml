@@ -1,0 +1,18 @@
+[package]
+name = "appwall"
+version = "0.1.0"
+authors = ["Michael Mullin <mimullin@blackberry.com>"]
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+# chrono = "0.4"
+libbpf-rs = { git = "https://github.com/mimullin-bbry/libbpf-rs.git", branch = "tc-4-review" }
+libc = "0.2"
+plain = "*"
+structopt = "0.3"
+nix = "0.22"
+procfs = "*"
+
+[build-dependencies]
+libbpf-cargo = { git = "https://github.com/mimullin-bbry/libbpf-rs.git" }
